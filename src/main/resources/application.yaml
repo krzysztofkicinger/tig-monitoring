@@ -1,0 +1,10 @@
+management:
+  endpoints:
+    health:
+      enabled: true
+    loggers:
+      enabled: true
+    metrics:
+      enabled: true
+    web:
+      expose: ["health", "info", "loggers", "metrics"]
